@@ -13,3 +13,6 @@ class GrooveSubmissionComments(models.Model):
 
     date_created = models.CharField(max_length=25)
     # automatically set when  profile is created. formatted ex. "Tuesday, May 16th, 2000"
+
+    class Meta:
+        db_table = "groove_submission_comments"
