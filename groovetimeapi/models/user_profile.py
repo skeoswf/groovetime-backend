@@ -13,3 +13,4 @@ class User_Profile(models.Model):
     date_joined = models.CharField(max_length=25)
     # automatically set when  profile is created. formatted ex. "Tuesday, May 16th, 2000"
     admin = models.BooleanField(default=False)
+    # admin level users must be set manually
