@@ -1,9 +1,13 @@
 from django.db import models
 
-from .groove_submission import Groove_Submission
+from .groove_submission import GrooveSubmission
+from .groovetime_user import GroovetimeUser
 from .rating import Rating
-from .user_profile import User_Profile
 
 
-class Groove_Submission_Rating(models.Model):
-    user = models.ForeignKey(User_Profile, on_delete=models.CASCADE)
+class GrooveSubmissionRating(models.Model):
+    groove_submission = models.ForeignKey(
+        GrooveSubmission, on_delete=models.CASCADE)
+    user_submitted = models.ForeignKey(
+        GroovetimeUser, on_delete=models.CASCADE)
+    rating_value = models.ForeignKey(Rating, on_delete=models.CASCADE)
