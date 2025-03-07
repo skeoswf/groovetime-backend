@@ -1,0 +1,42 @@
+[
+  {
+    "model": "groovetimeapi.rating",
+    "pk": 1,
+    "fields": {
+      "value": 1,
+      "description": "ehh..."
+    }
+  },
+  {
+    "model": "groovetimeapi.rating",
+    "pk": 2,
+    "fields": {
+      "value": 2,
+      "description": "hmm..."
+    }
+  },
+  {
+    "model": "groovetimeapi.rating",
+    "pk": 3,
+    "fields": {
+      "value": 3,
+      "description": "i see the vision..."
+    }
+  },
+  {
+    "model": "groovetimeapi.rating",
+    "pk": 4,
+    "fields": {
+      "value": 4,
+      "description": "tapping my feet..."
+    }
+  },
+  {
+    "model": "groovetimeapi.rating",
+    "pk": 5,
+    "fields": {
+      "value": 5,
+      "description": "I'M GROOVIN'!"
+    }
+  }
+]

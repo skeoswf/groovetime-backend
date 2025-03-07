@@ -1,0 +1,164 @@
+[
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 1,
+    "fields": {
+      "groove_submission": 1,
+      "user_submitted": 2,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 2,
+    "fields": {
+      "groove_submission": 1,
+      "user_submitted": 3,
+      "rating_value": 5
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 3,
+    "fields": {
+      "groove_submission": 2,
+      "user_submitted": 1,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 4,
+    "fields": {
+      "groove_submission": 2,
+      "user_submitted": 3,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 5,
+    "fields": {
+      "groove_submission": 3,
+      "user_submitted": 1,
+      "rating_value": 1
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 6,
+    "fields": {
+      "groove_submission": 3,
+      "user_submitted": 2,
+      "rating_value": 1
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 7,
+    "fields": {
+      "groove_submission": 4,
+      "user_submitted": 2,
+      "rating_value": 5
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 8,
+    "fields": {
+      "groove_submission": 4,
+      "user_submitted": 3,
+      "rating_value": 5
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 9,
+    "fields": {
+      "groove_submission": 5,
+      "user_submitted": 1,
+      "rating_value": 2
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 10,
+    "fields": {
+      "groove_submission": 5,
+      "user_submitted": 3,
+      "rating_value": 4
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 11,
+    "fields": {
+      "groove_submission": 6,
+      "user_submitted": 1,
+      "rating_value": 4
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 12,
+    "fields": {
+      "groove_submission": 6,
+      "user_submitted": 2,
+      "rating_value": 4
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 13,
+    "fields": {
+      "groove_submission": 7,
+      "user_submitted": 2,
+      "rating_value": 1
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 14,
+    "fields": {
+      "groove_submission": 7,
+      "user_submitted": 3,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 15,
+    "fields": {
+      "groove_submission": 8,
+      "user_submitted": 1,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 16,
+    "fields": {
+      "groove_submission": 8,
+      "user_submitted": 3,
+      "rating_value": 3
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 17,
+    "fields": {
+      "groove_submission": 9,
+      "user_submitted": 1,
+      "rating_value": 5
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionRating",
+    "pk": 18,
+    "fields": {
+      "groove_submission": 9,
+      "user_submitted": 2,
+      "rating_value": 5
+    }
+  }
+]

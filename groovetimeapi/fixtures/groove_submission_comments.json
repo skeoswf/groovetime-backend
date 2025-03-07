@@ -1,0 +1,182 @@
+[
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 1,
+    "fields": {
+      "groove_submission": 1,
+      "commented_by": 2,
+      "comment_text": "why does this song make me want to fight a fax machine",
+      "date_created": "2024-02-29T14:23:15-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 2,
+    "fields": {
+      "groove_submission": 1,
+      "commented_by": 3,
+      "comment_text": "i played this for my plants. now they demand wages.",
+      "date_created": "2023-12-11T08:45:30-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 3,
+    "fields": {
+      "groove_submission": 2,
+      "commented_by": 1,
+      "comment_text": "this song is the audio equivalent of a raccoon discovering nacho cheese. also, is anyone else seeing that mud wall in the distance?",
+      "date_created": "2023-11-19T22:17:42-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 4,
+    "fields": {
+      "groove_submission": 2,
+      "commented_by": 3,
+      "comment_text": "i blinked once and now my entire house is vibrating. also, i swear that mud wall just moved.",
+      "date_created": "2024-01-03T10:05:28-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 5,
+    "fields": {
+      "groove_submission": 3,
+      "commented_by": 1,
+      "comment_text": "this made my cat stare at me like he knows something i don’t. do cats normally hiss at floating dirt formations?",
+      "date_created": "2022-06-14T16:32:50-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 6,
+    "fields": {
+      "groove_submission": 3,
+      "commented_by": 2,
+      "comment_text": "i put this on and my microwave started speaking latin. it keeps whispering ‘the wretch looms’. thoughts?",
+      "date_created": "2023-09-21T05:14:39-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 7,
+    "fields": {
+      "groove_submission": 4,
+      "commented_by": 2,
+      "comment_text": "why does this feel like the anthem of an underground sock rebellion. also, my socks keep disappearing toward that mud wall??",
+      "date_created": "2023-04-01T19:57:12-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 8,
+    "fields": {
+      "groove_submission": 4,
+      "commented_by": 3,
+      "comment_text": "this just activated my fight-or-flight response for no reason. but mostly flight. from the mud wall.",
+      "date_created": "2023-10-13T02:48:03-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 9,
+    "fields": {
+      "groove_submission": 5,
+      "commented_by": 1,
+      "comment_text": "listened to this once and now my fridge light flickers ominously. the mud wall is closer now.",
+      "date_created": "2024-03-01T12:19:45-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 10,
+    "fields": {
+      "groove_submission": 5,
+      "commented_by": 3,
+      "comment_text": "this feels like a warning from the multiverse. has anyone else smelled wet soil in their walls?",
+      "date_created": "2022-12-07T23:54:30-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 11,
+    "fields": {
+      "groove_submission": 6,
+      "commented_by": 1,
+      "comment_text": "played this on full volume and now the neighbor's dog is my sworn enemy. it’s barking at something just above ground level.",
+      "date_created": "2023-07-29T04:30:12-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 12,
+    "fields": {
+      "groove_submission": 6,
+      "commented_by": 2,
+      "comment_text": "this track just opened a portal to an alternate reality where i’m cool. but even there... the mud wall exists.",
+      "date_created": "2023-02-15T15:22:18-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 13,
+    "fields": {
+      "groove_submission": 7,
+      "commented_by": 2,
+      "comment_text": "why does this song make me feel like i forgot to turn off the oven. or like i’ve angered something ancient. something earthen.",
+      "date_created": "2024-01-26T09:14:07-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 14,
+    "fields": {
+      "groove_submission": 7,
+      "commented_by": 3,
+      "comment_text": "this makes me want to run dramatically through the rain with no context. but every road leads back to the wretch.",
+      "date_created": "2023-05-03T18:38:55-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 15,
+    "fields": {
+      "groove_submission": 8,
+      "commented_by": 1,
+      "comment_text": "this song sounds like my last two brain cells arguing. the mud wall judges silently.",
+      "date_created": "2023-08-17T07:49:20-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 16,
+    "fields": {
+      "groove_submission": 8,
+      "commented_by": 3,
+      "comment_text": "listened to this and suddenly my socks disappeared. the wretch has taken its toll.",
+      "date_created": "2024-02-10T21:55:41-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 17,
+    "fields": {
+      "groove_submission": 9,
+      "commented_by": 1,
+      "comment_text": "this song is what my sleep paralysis demon listens to on repeat. i woke up to see the wall. it looms.",
+      "date_created": "2023-11-06T13:07:36-06:00"
+    }
+  },
+  {
+    "model": "groovetimeapi.GrooveSubmissionComment",
+    "pk": 18,
+    "fields": {
+      "groove_submission": 9,
+      "commented_by": 2,
+      "comment_text": "why does this feel like an anthem for sentient vending machines. i think the wretch is listening too.",
+      "date_created": "2022-09-30T06:43:52-06:00"
+    }
+  }
+]
