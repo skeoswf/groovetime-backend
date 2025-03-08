@@ -15,8 +15,8 @@
     "pk": 2,
     "fields": {
       "active": false,
-      "title": "abandoned mall vibes",
-      "description": "you're 17, just got outta prom with your shitty girlfriend, you're chillin-- tryna not to go home but... man! what's this? a text from the homeboy chris?? abandoned mall??? he and carson finally found a way in???? cut to the memory of sitting at the edge of a food court, music playing towards the end of the dying speaker carson bought, and a shared cigarette. what song just happened to be the best song to play on that speaker?",
+      "title": "bleeding out in the snow...",
+      "description": "heartbeat slows. cold's numbing. tragic. i should get up, but... im getting warmer, i think. yeah...",
       "start_day": "Tuesday, February 4th, 2025",
       "end_day": "Tuesday, February 11th, 2025"
     }
@@ -26,8 +26,8 @@
     "pk": 3,
     "fields": {
       "active": true,
-      "title": "bleeding out in the snow...",
-      "description": "heartbeat slows. cold's numbing. tragic. i should get up, but... im getting warmer, i think. yeah...",
+      "title": "liminal teenage angst",
+      "description": "you're 17, just got outta prom with your shitty girlfriend, you're chillin-- tryna not to go home but... man! what's this? a text from the homeboy chris?? abandoned mall??? he and carson finally found a way in???? cut to the memory of sitting at the edge of a food court, music playing towards the end of the dying speaker carson bought, and a shared cigarette. what song just happened to be the best song to play on that speaker?",
       "start_day": "Tuesday, March 1st, 2025",
       "end_day": "Tuesday, March 8th, 2025"
     }
