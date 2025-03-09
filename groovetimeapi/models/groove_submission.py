@@ -12,6 +12,7 @@ class GrooveSubmission(models.Model):
     video_url = models.URLField()
     description = models.CharField(max_length=500)
 
-    average_rating = models.DecimalField(max_digits=3, decimal_places=1)
+    average_rating = models.DecimalField(
+        max_digits=3, decimal_places=1, null=True)
 
-    user_ratings = models.ManyToManyField(Rating)
+    user_ratings = models.ManyToManyField(Rating, null=True)
