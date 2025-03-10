@@ -6,7 +6,7 @@
       "uid": "fake uid. sorry...",
       "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/800px-Emu_1_-_Tidbinbilla.jpg",
       "bio": "I WILL NOT CARRY YOUR CAUTION!",
-      "groove_points": "12.5",
+      "groove_points": 0,
       "grooves_won": 2,
       "date_joined": "2000-05-16T00:00:00-06:00",
       "admin": true
@@ -19,7 +19,7 @@
       "uid": "this is yet another fake uid",
       "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/800px-Emu_1_-_Tidbinbilla.jpg",
       "bio": "can i carry your caution is that cool",
-      "groove_points": "8.5",
+      "groove_points": 0,
       "grooves_won": 0,
       "date_joined": "2005-05-24T00:00:00-06:00",
       "admin": false
@@ -32,7 +32,7 @@
       "uid": "aren't you tired of insincerity?",
       "profile_picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/800px-Emu_1_-_Tidbinbilla.jpg",
       "bio": "gulp there goes the hurt!!!",
-      "groove_points": "5",
+      "groove_points": 0,
       "grooves_won": 0,
       "date_joined": "2017-05-29T00:00:00-06:00",
       "admin": false
