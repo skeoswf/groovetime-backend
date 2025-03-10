@@ -15,4 +15,4 @@ class GrooveSubmission(models.Model):
     average_rating = models.DecimalField(
         max_digits=3, decimal_places=1, null=True)
 
-    user_ratings = models.ManyToManyField(Rating, null=True)
+    user_ratings = models.ManyToManyField(Rating)
