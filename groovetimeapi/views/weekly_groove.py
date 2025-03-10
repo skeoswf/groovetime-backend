@@ -2,7 +2,13 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from groovetimeapi.models import WeeklyGroove
+from groovetimeapi.models import (
+    WeeklyGroove,
+    GrooveSubmission,
+    GroovetimeUser
+)
+
+from .update_user_points import update_user_groove_points
 
 
 class WeeklyGrooveView(ViewSet):
@@ -30,7 +36,20 @@ class WeeklyGrooveView(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
+        previous_weekly_groove = WeeklyGroove.objects.filter(
+            active=True).first()
+        # capture previous weekly groove to find winner
         WeeklyGroove.objects.filter(active=True).update(active=False)
+
+        if previous_weekly_groove:
+            highest_submission = GrooveSubmission.objects.filter(
+                weekly_groove=previous_weekly_groove
+            ).order_by('-average_rating').first()
+
+            if highest_submission:
+                winner = highest_submission.submitted_by
+                winner.grooves_won += 1
+                winner.save()
 
         weekly_groove = WeeklyGroove.objects.create(
             active=request.data["active"],
@@ -39,6 +58,10 @@ class WeeklyGrooveView(ViewSet):
             start_day=request.data["startDay"],
             end_day=request.data["endDay"]
         )
+
+        all_users = GroovetimeUser.objects.all()
+        for user in all_users:
+            update_user_groove_points(user)
 
         serializer = WeeklyGrooveSerializer(weekly_groove)
         return Response(serializer.data, status=status.HTTP_201_CREATED)

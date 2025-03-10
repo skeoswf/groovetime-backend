@@ -8,6 +8,8 @@ from groovetimeapi.models import (
     GroovetimeUser,
 )
 
+from .update_user_points import update_user_groove_points
+
 
 class GrooveSubmissionView(ViewSet):
 
@@ -69,6 +71,7 @@ class GrooveSubmissionView(ViewSet):
             submitted_by=submitted_by
         )
 
+        update_user_groove_points(submitted_by)
         serializer = GrooveSubmissionSerializer(groove_submission)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
