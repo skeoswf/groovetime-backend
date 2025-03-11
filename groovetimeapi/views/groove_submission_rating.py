@@ -80,6 +80,27 @@ class GrooveSubmissionRatingView(ViewSet):
         serializer = GrooveSubmissionRatingSerializer(groove_submission_rating)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+    def update(self, request, pk):
+        groove_submission_rating = GrooveSubmissionRating.objects.get(pk=pk)
+
+        groove_submission = GrooveSubmission.objects.get(
+            pk=request.data["grooveSubmission"])
+        user_submitted = GroovetimeUser.objects.get(
+            pk=request.data["userSubmitted"])
+        rating_value = Rating.objects.get(pk=request.data["ratingValue"])
+
+        groove_submission_rating.groove_submission = groove_submission
+        groove_submission_rating.user_submitted = user_submitted
+        groove_submission_rating.rating_value = rating_value
+
+        groove_submission_rating.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+    def destroy(self, request, pk):
+        groove_submission_rating = GrooveSubmissionRating.objects.get(pk=pk)
+        groove_submission_rating.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
 
 class GrooveSubmissionRatingSerializer(serializers.ModelSerializer):
     class Meta:

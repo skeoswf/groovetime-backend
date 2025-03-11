@@ -9,16 +9,44 @@ from groovetimeapi.views import (
     WeeklyGrooveView,
     GrooveSubmissionView,
     GroovetimeUserView,
-    GrooveSubmissionRatingView
+    GrooveSubmissionRatingView,
+    GrooveSubmissionCommentView
 )
 
 router = routers.DefaultRouter(trailing_slash=False)
+
 router.register(r'ratings', RatingView, 'rating')
-router.register(r'weeklygrooves', WeeklyGrooveView, 'weeklygroove')
-router.register(r'groovesubmissions', GrooveSubmissionView, 'groovesubmission')
-router.register(r'groovetimeusers', GroovetimeUserView, 'groovetimeuser')
-router.register(r'groovesubmissionratings',
-                GrooveSubmissionRatingView, 'groovesubmissionrating')
+
+
+router.register(
+    r'weeklygrooves',
+    WeeklyGrooveView,
+    'weeklygroove'
+)
+
+router.register(
+    r'groovesubmissions',
+    GrooveSubmissionView,
+    'groovesubmission'
+)
+
+router.register(
+    r'groovetimeusers',
+    GroovetimeUserView,
+    'groovetimeuser'
+)
+
+router.register(
+    r'groovesubmissionratings',
+    GrooveSubmissionRatingView,
+    'groovesubmissionrating'
+)
+
+router.register(
+    r'groovesubmissioncomments',
+    GrooveSubmissionCommentView,
+    'groovesubmissioncomment'
+)
 
 
 urlpatterns = [

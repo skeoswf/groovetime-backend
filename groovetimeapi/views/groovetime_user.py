@@ -49,8 +49,10 @@ class GroovetimeUserView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def update(self, request, pk):
-
-        updated_groovetime_user = GroovetimeUser.objects.get(pk=pk)
+        try:
+            updated_groovetime_user = GroovetimeUser.objects.get(pk=pk)
+        except GroovetimeUser.DoesNotExist:
+            return Response({"message": "User not found."}, status=status.HTTP_404_NOT_FOUND)
         updated_groovetime_user.profile_picture = request.data["profilePicture"]
         updated_groovetime_user.bio = request.data["bio"]
 

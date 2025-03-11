@@ -77,6 +77,11 @@ class GrooveSubmissionView(ViewSet):
 
     def update(self, request, pk):
 
+        try:
+            groove_submission = GrooveSubmission.objects.get(pk=pk)
+        except GrooveSubmission.DoesNotExist:
+            return Response({"message": "Submission not found."}, status=status.HTTP_404_NOT_FOUND)
+
         groove_submission = GrooveSubmission.objects.get(pk=pk)
         groove_submission.description = request.data["description"]
 
@@ -84,6 +89,11 @@ class GrooveSubmissionView(ViewSet):
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
     def destroy(self, request, pk):
+
+        try:
+            groove_submission = GrooveSubmission.objects.get(pk=pk)
+        except GrooveSubmission.DoesNotExist:
+            return Response({"message": "Submission not found."}, status=status.HTTP_404_NOT_FOUND)
 
         groove_submission = GrooveSubmission.objects.get(pk=pk)
         groove_submission.delete()
@@ -102,3 +112,4 @@ class GrooveSubmissionSerializer(serializers.ModelSerializer):
             'average_rating',
             'user_ratings'
         )
+        depth = 1
