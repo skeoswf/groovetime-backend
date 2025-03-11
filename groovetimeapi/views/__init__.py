@@ -3,5 +3,6 @@ from .weekly_groove import WeeklyGrooveView
 from .groove_submission import GrooveSubmissionView
 from .groovetime_user import GroovetimeUserView
 from .groove_submission_rating import GrooveSubmissionRatingView
+from .groove_submission_comment import GrooveSubmissionCommentView
 
 from .update_user_points import update_user_groove_points

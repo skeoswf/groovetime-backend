@@ -30,6 +30,7 @@ class WeeklyGrooveView(ViewSet):
         weekly_grooves = WeeklyGroove.objects.all()
 
         if active is not None:
+            active = active.lower() == "true"
             weekly_grooves = weekly_grooves.filter(active=active)
 
         serializer = WeeklyGrooveSerializer(weekly_grooves, many=True)
@@ -67,6 +68,11 @@ class WeeklyGrooveView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def update(self, request, pk):
+
+        try:
+            weekly_groove = WeeklyGroove.objects.get(pk=pk)
+        except WeeklyGroove.DoesNotExist:
+            return Response({"message": "Weekly Groove not found."}, status=status.HTTP_404_NOT_FOUND)
 
         weekly_groove = WeeklyGroove.objects.get(pk=pk)
         weekly_groove.active = request.data["active"]
