@@ -12,6 +12,10 @@ At the end of each week, the “Weekly Groove!” and related submissions are ar
 
 It will allow me to work with authentication, real-time data, many-to-many relationships, and UI state management, all while building a unique, social music-sharing experience. The many to many comes from the rating system– a submission can have multiple ratings by multiple users, and multiple users can give ratings to multiple submissions.
 
+[Postman Documentation](https://documenter.getpostman.com/view/29718199/2sAYk7S4VD)
+
+[ERD](https://dbdiagram.io/d/groovetime-67b3e549263d6cf9a07eb4d5)
+
 # Installation and Setup
 
 1. Clone repo
