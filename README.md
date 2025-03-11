@@ -16,7 +16,7 @@ It will allow me to work with authentication, real-time data, many-to-many relat
 
 1. Clone repo
 
-_disregard following steps if there is a .vscode folder already present within the directory_
+_disregard 2-5 if there is a .vscode folder already present within the directory with the following code blocks_
 
 2. Create a ```.vscode``` folder
 3. Create a ```launch.json``` AND ```settings.json``` file within the ```.vscode``` folder.
